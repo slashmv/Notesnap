@@ -1,0 +1,72 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.ant-layout-sider-trigger {
+  display: flex;
+  justify-content: center;
+}
+
+.home-sidebar > .ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.home-sidebar .ant-layout-sider-children .sidebar-menu {
+  margin-bottom: auto;
+  font-size: 1rem;
+  border: none;
+}
+
+.demo-logo-vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-wrap: nowrap;
+  transition: all 3s ease-in;
+}
+
+.home-dark-mode-toggle {
+  justify-content: space-around;
+  align-items: center;
+  text-wrap: nowrap;
+}
+
+.dark-mode-label {
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.content-container {
+  padding: 30px;
+  height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: gray transparent;
+}
+
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
